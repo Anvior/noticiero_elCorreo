@@ -26,19 +26,13 @@ sources:
     url: "https://www.eleconomista.es/"
     max_to_fetch: 400
   - name: "ElConfidencial"
-    url: "https://www.elconfidencial.com/"
+    url: "https://www.elconfidencial.com/espana/"
     max_to_fetch: 400
   - name: "CincoDías"
     url: "https://cincodias.elpais.com/"
     max_to_fetch: 400
   - name: "EuropaPress"
     url: "https://www.europapress.es/"
-    max_to_fetch: 400
-  - name: "CNMC"
-    url: "https://www.cnmc.es/prensa/noticias?page=1"
-    max_to_fetch: 400
-  - name: "CompetitionPolicy"
-    url: "https://competition-policy.ec.europa.eu/antitrust-and-cartels/latest-news_en"
     max_to_fetch: 400
   
   
