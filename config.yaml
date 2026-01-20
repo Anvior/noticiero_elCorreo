@@ -16,14 +16,30 @@ hours_recent: 24
 # 📧 A qué correos se enviará el resumen.
 # Puedes añadir más poniendo cada uno en una línea nueva con "-".
 to_emails:
-  - "anartz2001@gmail.com"
+  - "anartz.azumendi@brainandcode.tech"
 
 # 🌐 Medios o páginas de donde se sacan las noticias.
 # Puedes añadir o quitar medios fácilmente copiando un bloque.
 # Cada bloque necesita un nombre, una URL y el número máximo de artículos.
 sources:
-  - name: "elCorreo"
-    url: "https://www.elcorreo.com/"
+  - name: "ElEconomista"
+    url: "https://www.eleconomista.es/"
     max_to_fetch: 400
+  - name: "ElConfidencial"
+    url: "https://www.elconfidencial.com/"
+    max_to_fetch: 400
+  - name: "CincoDías"
+    url: "https://cincodias.elpais.com/"
+    max_to_fetch: 400
+  - name: "EuropaPress"
+    url: "https://www.europapress.es/"
+    max_to_fetch: 400
+  - name: "CNMC"
+    url: "https://www.cnmc.es/prensa/noticias?page=1"
+    max_to_fetch: 400
+  - name: "CompetitionPolicy"
+    url: "https://competition-policy.ec.europa.eu/antitrust-and-cartels/latest-news_en"
+    max_to_fetch: 400
+  
   
  
